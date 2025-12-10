@@ -1,0 +1,6 @@
+services:
+  project1textrecognition:
+    image: project1textrecognition
+    build:
+      context: .
+      dockerfile: ./Dockerfile
