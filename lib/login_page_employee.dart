@@ -6,7 +6,7 @@ class LoginPageEmployee extends StatefulWidget {
   const LoginPageEmployee({Key? key}) : super(key: key);
 
   @override
-  _EmployeeLoginPageState createState() => _EmployeeLoginPageState();
+  State<LoginPageEmployee> createState() => _EmployeeLoginPageState();
 }
 
 class _EmployeeLoginPageState extends State<LoginPageEmployee> {

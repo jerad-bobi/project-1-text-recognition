@@ -4,7 +4,7 @@ import 'db_helper.dart';
 
 class NotificationPage extends StatefulWidget {
   @override
-  _NotificationPageState createState() => _NotificationPageState();
+  State<NotificationPage> createState() => _NotificationPageState();
 }
 
 class _NotificationPageState extends State<NotificationPage> {
