@@ -16,7 +16,7 @@ class HomePageManager extends StatefulWidget {
   HomePageManager({Key? key, required this.toggleTheme}) : super(key: key);
 
   @override
-  State<HomePageManager> createState() => _HomePageManagerState();
+  _HomePageManagerState createState() => _HomePageManagerState();
 }
 
 class _HomePageManagerState extends State<HomePageManager> {

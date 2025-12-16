@@ -14,7 +14,7 @@ class HomePageEmployee extends StatefulWidget {
   HomePageEmployee({Key? key, required this.toggleTheme}) : super(key: key);
 
   @override
-  State<HomePageEmployee> createState() => _HomePageEmployeeState();
+  _HomePageEmployeeState createState() => _HomePageEmployeeState();
 }
 
 class _HomePageEmployeeState extends State<HomePageEmployee> {

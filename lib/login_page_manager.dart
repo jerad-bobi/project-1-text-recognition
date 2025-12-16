@@ -6,7 +6,7 @@ class LoginPageManager extends StatefulWidget {
   const LoginPageManager({Key? key}) : super(key: key);
 
   @override
-  State<LoginPageManager> createState() => _ManagerLoginPageState();
+  _ManagerLoginPageState createState() => _ManagerLoginPageState();
 }
 
 class _ManagerLoginPageState extends State<LoginPageManager> {

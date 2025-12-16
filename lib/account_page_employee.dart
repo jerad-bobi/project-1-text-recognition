@@ -5,7 +5,7 @@ class AccountPageEmployee extends StatefulWidget {
   const AccountPageEmployee({Key? key}) : super(key: key);
 
   @override
-  State<AccountPageEmployee> createState() => _EmployeeAccountPageState();
+  _EmployeeAccountPageState createState() => _EmployeeAccountPageState();
 }
 
 class _EmployeeAccountPageState extends State<AccountPageEmployee> {
