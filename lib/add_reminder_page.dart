@@ -12,7 +12,7 @@ class AddReminderPage extends StatefulWidget {
   }) : super(key: key);
 
   @override
-  _AddReminderPageState createState() => _AddReminderPageState();
+  State<AddReminderPage> createState() => _AddReminderPageState();
 }
 
 class _AddReminderPageState extends State<AddReminderPage> {
