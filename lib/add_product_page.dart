@@ -75,7 +75,6 @@ class _AddProductPageState extends State<AddProductPage> {
             DropdownButtonFormField<String>(
               value: selectedCategory,
               decoration: const InputDecoration(labelText: 'Category'),
-              // NEW FEATURE: Added TextField for supplier contact information //
               items: ['Food', 'Drinks', 'Snacks', 'Others']
                   .map((category) => DropdownMenuItem(
                         value: category,
