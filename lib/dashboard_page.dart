@@ -97,6 +97,9 @@ class _DashboardPageState extends State<DashboardPage> {
     );
   }
 
+  // Insert the path to lib/analytics_dashboard_page.dart here
+  // Breaking change of the new major changes
+
   // A method to build the line chart for each data category
   Widget _buildLineChart(int data, String label) {
     return SizedBox(
